@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css?family=Outfit:100,200,300,regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Young+Serif:regular);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px 0 20px 0;
+    background-color: hsl(30, 54%, 90%);
+}
+
+.recipe-card {
+    width: 400px;
+    margin: auto;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px 20px 40px 20px;
+    border-radius: 10px;
+}
+
+.recipe-img img {
+    border-radius: 10px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-family: Young Serif;
+    font-size: 23px;
+}
+
+ul {
+    padding-left: 40px;
+}
+
+p {
+    font-family: Outfit;
+    font-size: 9px;
+}
+
+.preparation {
+    background-color: hsl(330, 100%, 98%);
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    font-family: Outfit;
+    font-size: 12px;
+}
+
+.preparation-heading {
+    font-family: Outfit;
+    font-size: 17px;
+    padding: 20px;
+    color: hsl(332, 51%, 32%);
+}
+
+ul li::marker {
+    color: hsl(14, 45%, 36%);
+    padding-left: 10px;
+}
+
+.preparation ul li span {
+    color: hsl(24, 5%, 18%);
+    font-weight: bold;
+}
+
+.preparation ul li {
+    padding-bottom: 5px;
+}
+
+.ingredients {
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-family: Young Serif;
+    color: hsl(14, 45%, 36%);
+    font-size: 20px;
+}
+
+.ingredients ul li {
+    font-family: Outfit;
+    margin-top: 6px;
+    font-size: 11px;
+    padding-bottom: 5px;
+}
+
+.instructions {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.instructions ol li {
+    font-family: Outfit;
+    font-size: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+.instructions ol li span {
+    color: hsl(24, 5%, 18%);
+    font-weight: bold;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition-table p {
+    font-size: 9.5px;
+}
+
+table {
+    margin-left: 20px;
+    font-family: Outfit;
+    border-collapse: collapse;
+    margin-top: 5px;
+}
+
+td {
+    padding-right: 180px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+td {
+    padding-top: 5px;
+}
+
+th {
+    padding-bottom: 10px;
+    color: hsl(14, 45%, 36%);
+    text-align: right;
+}
+
+tr:not(:last-child) {
+    border-bottom: 1px solid rgba(0, 0, 0, .541);
+    padding-bottom: 50px;
+}
+
+a {
+    font-family: Outfit;
+}
+
+.attribution {
+    margin-top: 10px;
+}
+
+@media (max-width: 400px) {
+    body {
+        padding-top: 0px;
+    }
+
+    .recipe-card {
+        width: 385px;
+        border-radius: 0px;
+    }
+
+    .recipe-img img {
+        border-radius: 0px;
+        height: 160px;
+        width: 330px;
+    }
+
+    .preparation {
+        width: 325px;
+    }
+}
