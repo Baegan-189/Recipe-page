@@ -109,19 +109,27 @@ ol li::marker {
     color: hsl(14, 45%, 36%);
 }
 
+.nutrition {
+    margin-top: 10px;
+}
+
+.nutrition-table table {
+    width: 330px;
+}
+
 .nutrition-table p {
     font-size: 9.5px;
+    margin-top: 1px;
 }
 
 table {
-    margin-left: 20px;
+    margin-left: 15px;
     font-family: Outfit;
     border-collapse: collapse;
     margin-top: 5px;
 }
 
 td {
-    padding-right: 180px;
     text-align: left;
     padding-bottom: 10px;
 }
@@ -133,7 +141,8 @@ td {
 th {
     padding-bottom: 10px;
     color: hsl(14, 45%, 36%);
-    text-align: right;
+    text-align: left;
+    margin-left: 20px;
 }
 
 tr:not(:last-child) {
@@ -162,7 +171,7 @@ a {
     .recipe-img img {
         border-radius: 0px;
         height: 160px;
-        width: 330px;
+        width: 343px;
     }
 
     .preparation {
